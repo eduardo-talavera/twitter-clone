@@ -1,0 +1,23 @@
+.taskbarOption {
+  /* display: flex;
+  align-items: center; */
+  cursor: pointer;
+}
+
+.taskbarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.taskbarOption > .MuiSvgIcon-root {
+  padding: 20px;
+  font-size: 30px;
+  /* color: rgb(106, 113, 117); */
+}
+
+.taskbarOption--active {
+  color: var(--twitter-color);
+}
+

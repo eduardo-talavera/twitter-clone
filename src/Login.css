@@ -1,0 +1,80 @@
+.login {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0
+}
+
+
+.login__twitterIcon {
+  color: var(--twitter-color) !important;
+  font-size: 50px !important;
+}
+
+.button_signIn {
+  width: 300px !important;
+  background-color: white !important;
+  color: var(--twitter-color) !important;
+  border: 1.5px solid var(--twitter-color) !important;
+  border-radius: 30px !important;
+  text-transform: lowercase !important;
+  padding: 10px 20px !important;
+  font-weight: bold !important;
+}
+
+.button_signIn:hover {
+  background-color: #f5f8fa !important;
+}
+
+.login__left {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.login__left > img {
+  width: 100%;
+}
+
+.login__right {
+  margin-top: -10%;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login__right h1 {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .login__right h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login__left {
+    display: none;
+  }
+
+  .login__right {
+    flex: 0.8;
+  }
+
+  .button_signIn {
+    width: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .login__right h1 {
+    font-size: 40px;
+  }
+}
+
