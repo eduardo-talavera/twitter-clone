@@ -29,6 +29,29 @@
   border-radius: 20px;
 }
 
+.widgets__followButton {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  font-size: 14px !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 85px !important;
+  height: 35px !important;
+}
+
+.widgets__showMoreButton {
+  background-color: transparent !important;
+  border: none !important;
+  color:var(--twitter-color) !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  text-transform: inherit !important;
+  height: 35px !important;
+}
+
+
 @media only screen and (max-width: 1024px) {
   .widgets__widgetContainer,
   .widgets__input  {

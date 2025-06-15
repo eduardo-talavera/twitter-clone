@@ -13,7 +13,6 @@
 .post__body > img {
   border-radius: 20px;
   width: 98%;
-  height: 300px;
   object-fit: cover;
 }
 
@@ -27,6 +26,7 @@
 .post__headerDescription  {
   margin-bottom: 10px;
   font-size: 15px;
+  max-width: 450px;
 }
 
 .post__headerText > h3 {
@@ -46,7 +46,7 @@
 
 .post__headerSpecial {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   color: gray;
 }
 .post__avatar {
